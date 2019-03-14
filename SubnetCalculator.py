@@ -315,7 +315,7 @@ name = _address[:_address.find('/')] + "-" + _address[_address.find('/') + 1:] +
 file = open(name, 'w+')
 print("\nSaving values to a text file (" + name + ")...")
 
-file.write("IP Address:" + _address[:_address.find('/')] + " (" + ip_dec_to_bin(_address[:_address.find('/')]) + ")\n")
+file.write("IP Address: " + _address[:_address.find('/')] + " (" + ip_dec_to_bin(_address[:_address.find('/')]) + ")\n")
 file.write("Subnet Mask (CIDR): " + _address[_address.find('/'):] + "\n\n")
 
 file.write("Network address: " + network_address_value + " (" + ip_dec_to_bin(network_address_value) + ")\n")
