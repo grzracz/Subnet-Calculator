@@ -1,3 +1,7 @@
+#   Copyright (c) 2019 Grzegorz Raczek
+#   https://github.com/grzracz
+#   Files available under MIT license
+
 import sys  # (sys.argv)
 import socket   # (socket.gethostbyname())
 import subprocess   # for using ipconfig (subnet mask) and ping
