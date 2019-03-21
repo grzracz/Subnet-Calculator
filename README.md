@@ -15,7 +15,7 @@ All data is saved to a text file.
 will result in:
 
 ```
-IP Address:192.168.43.173 (11000000.10101000.00101011.10101101)
+IP Address: 192.168.43.173 (11000000.10101000.00101011.10101101)
 Subnet Mask (CIDR): /24
 
 Network address: 192.168.43.0 (11000000.10101000.00101011.00000000)
